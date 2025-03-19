@@ -160,7 +160,7 @@ async def format_vacancy_deepseek(raw_text: str) -> str:
         "• Recommended e-mail subject: <Subject> \n"
         "• Recruitment Manager: <Manager Name>\n\n"
         "👔 Employer: <Employer>\n\n"
-        "@SeajobHub - подписаться"
+        "@SeajobsHub - подписаться"
         "Return ONLY the final formatted text exactly as specified above, using newline characters for line breaks.\n\n"
         "Raw vacancy information:\n"
         f"{raw_text}\n\n"
